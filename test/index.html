@@ -26,11 +26,17 @@
       $("button").click(function() {
         var myQuestion = prompt("Who is the cutest girl in the world?");
 
-        if (myQuestion.toLowerCase() === "amber" || "anting") {
+        if (
+          myQuestion.toLowerCase() === "amber" ||
+          myQuestion.toLowerCase() === "an ting" ||
+          myQuestion.toLowerCase() === "anting"
+        ) {
           alert("I know I am!");
           document.write("You're cute too");
+          console.log("yooo");
         } else {
           alert("Wrong! You're not smart ass!");
+          console.log("nooo");
         }
       });
     </script>
